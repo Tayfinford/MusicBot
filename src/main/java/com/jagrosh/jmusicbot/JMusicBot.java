@@ -98,7 +98,7 @@ public class JMusicBot
                 .setHelpWord(config.getHelp())
                 .setLinkedCacheSize(200)
                 .setGuildSettingsManager(settings)
-                .addCommands(aboutCommand,
+                .addCommands
                         new PingCommand(),
                         new SettingsCmd(),
                         
